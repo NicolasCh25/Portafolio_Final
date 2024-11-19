@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.p1{
+    margin-right: 70%;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-top: 10%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 8px;
+    background-image:url(https://thumbs.dreamstime.com/z/pantalla-de-c%C3%B3digo-programaci%C3%B3n-escritura-fondo-edici%C3%B3n-programadores-fuente-del-software-desarrollador-171572474.jpg) ;
+    
+}
+
+
+.content {
+    max-width: 50%;
+    background-color: #000;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.buttons {
+    display: flex;
+}
+
+.start-btn {
+    background-color: #0a48f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cv-btn {
+    background-color: #81252500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.profile-pic {
+    max-width: 25%;
+}
+
+.profile-pic img {
+    width: 60%;
+    border-radius: 40%;
+}
+p1{
+    display: flex;
+}
+section h2 {
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+
+.seccion2{
+    color: #000;
+    margin-top: 30px;
+}
+
+.P1{
+    display: flex;
+    
+}
+.pro1{
+    border: 2px solid rgb(209, 209, 214);
+    padding: 30px;
+    border-radius: 8px;
+    width: auto;  /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor */
+    margin: 20px;
+    color: #000;
+}
+.pro2{
+    border: 2px solid rgb(209, 209, 214);
+
+    padding: 30px;
+    border-radius: 8px;
+    width: auto;  /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor */
+    margin: 20px;
+    color: #000;
+}
+.pro3{
+    border: 2px solid rgb(209, 209, 214);
+
+    border-radius: 8px;
+    width: auto;  /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor */
+    padding: 30px;
+    margin: 20px;
+    color: #000;
+}
+.pro1 p{
+    text-align: left;
+}
+
+
+.pro2 p{
+    text-align: left;
+}
+
+
+.pro3 p{
+    text-align: left;
+}
+
+.pro3 .img3{
+    max-width: 100%;  /* La imagen nunca será más ancha que el contenedor */
+    max-height: 100%; /* La imagen nunca será más alta que el contenedor */
+    object-fit: contain; 
+    width: 200%;
+    padding-left: 10%;
+    padding-right: 9%;
+    
+}
+.pro2 .img2{
+    max-width: 100%;  /* La imagen nunca será más ancha que el contenedor */
+    max-height: 100%; /* La imagen nunca será más alta que el contenedor */
+    object-fit: contain; 
+    width: 70%;
+    text-align: center;
+    width: 200%;
+    padding-left: 10%;
+    padding-right: 9%;
+}
+.pro1 .img1{
+    max-width: 100%;  /* La imagen nunca será más ancha que el contenedor */
+    max-height: 100%; /* La imagen nunca será más alta que el contenedor */
+    object-fit: contain; 
+    width: 150%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+.btn1{
+    background-color: rgb(124, 126, 124);
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn2{
+    background-color: rgb(124, 126, 124);
+    color: #fff;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn3{
+    background-color: rgb(124, 126, 124);
+    color: #fff;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn4{
+    margin-right: 70%;
+    background-color: #0a48f3;
+    color: #f1f1f1;
+    padding: 4px;
+    border-radius: 10px;
+}
+.btn5{
+    margin-right: 70%;
+    background-color: #0a48f3;
+    color: #f1f1f1;
+    padding: 4px;
+    border-radius: 10px;
+}
+.btn6{
+    margin-right: 70%;
+    background-color: #0a48f3;
+    color: #f1f1f1;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.btn7{
+    background-color: green;
+    color: #f1f1f1;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn8{
+    background-color: green;
+    color: #f1f1f1;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn9{
+    background-color: green;
+    color: #f1f1f1;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(20, 94, 231);
+    padding: 1.5%;
+    display: flex;
+}
+.f1{
+    margin-right: 45%;
+}
+.f2{
+    margin-top: 2%;
+}
+.f2 input{
+    text-align: left;
+    width: 80%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.btn10{
+    background-color: green;
+    color: #fdfdfd;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+.what{
+    width: 7%;
+    margin: 2%;
+}
+.insta{
+    width: 7%;
+    border-radius: 10%;
+    margin: 2%;
+
+}
+.logo{
+    text-align: end;
+
+    display: flex;
+}
+.contactame{
+    text-align: left;
+    padding-top: 2%;
+}
+.logos{
+    
+    text-align:left ;
+}
+.copy{
+    margin-top: 5%;
+}
+.produc{
+    border: 3px solid rgb(209, 209, 214);
+    margin: 1%;
+    border-radius: 10px;
+}
